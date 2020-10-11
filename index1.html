@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inches to Centimeters</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<header>
+    <p>Inches to Centemeters Converter</p>
+</header>
+
+<body>
+
+    <!-- Convertion part -->
+    <div class="convertion">
+
+        <!-- inches part -->
+        <span class="box">
+            <label for="cmNumber">Inches (in)</label>
+            <br>
+            <input id="inchesPart" class="rounded" maxlength="25"
+                style="text-align:left; background: #F0FFFF; width:150px;" name="txtfromvalue" placeholder="1"
+                type="number">
+            <p>1 in = 2.54 cm</p>
+        </span>
+
+        <!-- swap image -->
+        <a href="./index.html"><img class="box" id="swap" src="./images/swap.png" alt=""></a>
+        <!-- centimeter part -->
+        <span class="box">
+            <label for="cmNumber">centimeters (cm)</label>
+            <br>
+
+            <input id="centimeterPart" class="rounded" maxlength="25"
+                style="text-align:left; background: #F0FFFF; width:150px;" name="txtfromvalue" placeholder="2.54"
+                type="number">
+            <p>1 cm = 0.39370079 in</p>
+        </span>
+
+
+
+    </div>
+
+<div class="algebra">
+    <p>Algebraic Steps / Dimensional Analysis Formula</p>
+    <p id="algebraEquation"> 1 cm x (1 in / 2.45 cm) = 0.39370079 in</p>
+
+
+</div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+<footer>
+    <p style="left:0">Contact Us :
+        <a href="maito:mejdeddine.nemsi.94@gmail.com">mejdeddine.nemsi.94@gmail.com</a>
+    </p>
+</footer>
+
+
+</html>

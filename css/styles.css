@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Asap, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #816c61;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+body {
+  background-color: #e9f1f7;
+}
+
+.convertion {
+  margin: 20px;
+  padding: 10px;
+  border: 3px solid #131b23;
+  border-radius: 4px;
+}
+
+.box {
+  display: inline-block;
+  padding: 3px;
+}
+
+#swap {
+  margin: 5px;
+}
+
+footer {
+  background: #e7dfc6;
+  position: absolute;
+  bottom: 0;
+  padding: 20px;
+  width: 100%;
+}
+
+.algebra{
+  padding:15px
+}
+
+#swap:hover{
+  cursor: pointer;
+}
